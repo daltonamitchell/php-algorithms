@@ -9,5 +9,11 @@
             "email": "daltonamitchell@live.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Problem\\": "problems/",
+        "Test\\": "tests/"
+      }
+    }
 }

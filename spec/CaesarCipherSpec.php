@@ -17,9 +17,8 @@ class CaesarCipherSpec extends ObjectBehavior
         $this->encode(3, "abc")->shouldReturn("def");
     }
 
-    function it_converts_a_more_complex_string()
+    function it_converts_a_complex_string()
     {
-        $this->encode(3, "abc xyz")->shouldReturn("def abc");
+        $this->encode(5, "the quick brown fox jumps over the lazy dog")->shouldReturn("ymj vznhp gwtbs ktc ozrux tajw ymj qfed itl");
     }
-
 }

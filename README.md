@@ -1,47 +1,52 @@
-Algorithms
+PHP Algorithms
+
 ==========
-A port of sagivo/algorithms for PHP
 
-Algorithms playground for common questions solved in ~~ruby~~ PHP syntax.
-In case you want to prepare yourself for a job interview - try to solve it yourself first, then have a look here.  
+A collection of common algorithms for practice or review
 
-## Problems
+## Getting Started
 
-- [Find the smallest biggest number that has the same digits](http://stackoverflow.com/questions/9368205/given-a-number-find-the-next-higher-number-which-has-the-exact-same-set-of-digi)
-- [Find the square root of a number](https://en.wikipedia.org/wiki/Newton%27s_method)
-- More to come...
+The best way to use these examples is to read through the tests to understand what's expected of each solution. Then read through the solution until you understand it. Better yet, comment out or remove the solution and try to get the tests passing yourself.
 
-[//]: # "The following problems aren't ready yet:"
-[//]: # "- [Dijkstra's shortest path between two nodes](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)"
-[//]: # "- [Binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)"
-[//]: # "- [Longest increasing subsequence](http://en.wikipedia.org/wiki/Longest_increasing_subsequence)"  
-[//]: # "- [Find all permutations of array](https://en.wikipedia.org/wiki/Permutation)"
-[//]: # "- [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets)"  
-[//]: # "- [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set)"
-[//]: # "- [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)"
-[//]: # "- Print all combinations of set joining"
-[//]: # "- [Telephone number to words](http://www.mobilefish.com/services/phonenumber_words/phonenumber_words.php)"
-[//]: # "- [Find the minimum insertions needed to make a word palindrome](from http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/)"
-[//]: # "- [String matching - Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)"
-[//]: # "- [Quicksort algorithm](http://en.wikipedia.org/wiki/Quicksort)"
-[//]: # "- [Knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem)"
-[//]: # "- [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)"
+Follow these steps to get started:
 
-## How?  
-Simply run `php some_file.php` to execute the algorithm. At the bottom of each file there are some test samples.
+1. Clone this repo
+2. Run `composer install` to install the dependencies. If you don't have Composer yet, you can get it [here](https://getcomposer.org).
+3. Run `bin/phpspec run` to run the tests.
+4. All tests are in the `spec` directory and solutions are located in `src`.
+5. Once you understand whats going on, remove the solution code and try to get it working again on your own.
+6. Go forth and conquer!
 
-## Why?
-I interviewed with Google, Facebook, Twitter, LinkedIn and others.
-Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorization of the same tricks.
-This is my way of saying - change your interview style. There are lots of smart people out there, this is not the best way to find them.
+## Purpose
 
-## Why PHP?
-Because I'm a PHP developer. Lot's of us are PHP developers. We should be learning how to be awesome like all the other communities out there!
+Being a self-taught developer, I built these problems for myself to learn and practice. I've posted them so others can benefit from the same practice. Also, if I've gotten anything wrong, I'm sure someone will let me know and then I'll get to learn again!
 
-## TODO
+You can use these to prepare for interviews, bootcamp prep or just for fun.
 
-- [ ] Setup a *real* test runner so you can actually run tests against your own solutions. Stay tuned!
-- [ ] Add more problems!
+**Just remember**:
+
+1. Read through the example.
+2. Understand what each line of code is doing.
+3. Try it yourself and get the tests passing.
+4. Repeat!
+
+### Learn More
+
+Here are some other resources useful for learning this kind of stuff.
+
+#### Curriculum
+
+* [Free Code Camp](http://freecodecamp.com/)
+* [Technical Interview Course](https://www.udacity.com/course/technical-interview--ud513) by Udacity
+* [App Academy Prepwork](https://github.com/appacademy/prep-work)
+
+#### Practice Challenges
+
+* [Exercism.io](http://exercism.io/)
+* [Project Euler](https://projecteuler.net/)
+* [Code Wars](http://www.codewars.com)
+* [Code Fights](https://codefights.com)
 
 ## Contribute
-Did you find a bug? any way to do it better? please feel free to pull-request it :)
+
+If you have trouble running the tests, want to add a new problem or correct something that's not quite right, please open an issue or submit a pull request.

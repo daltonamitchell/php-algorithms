@@ -1,0 +1,25 @@
+{
+  "name": "php-algorithms",
+  "version": "1.0.0",
+  "description": "PHP Algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daltonamitchell/php-algorithms.git"
+  },
+  "author": "Dalton A. Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daltonamitchell/php-algorithms/issues"
+  },
+  "homepage": "https://github.com/daltonamitchell/php-algorithms#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-phpcs": "^1.1.1",
+    "gulp-phplint": "^0.1.0",
+    "gulp-shell": "^0.5.2"
+  }
+}

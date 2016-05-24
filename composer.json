@@ -1,7 +1,8 @@
 {
     "name": "daltonamitchell/php-algorithms",
     "require-dev": {
-        "phpspec/phpspec": "~2.0"
+        "phpspec/phpspec": "~2.0",
+        "squizlabs/php_codesniffer": "^2.6"
     },
     "config": {
         "bin-dir": "bin"

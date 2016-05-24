@@ -1,18 +1,18 @@
 <?php
 
-/**
- * Write a method that takes in a string of lowercase letters (no
- * uppercase letters, no repeats). Consider the *substrings* of the
- * string: consecutive sequences of letters contained inside the string.
- * Find the longest such string of letters that is a palindrome.
- *
- * Note that the entire string may itself be a palindrome.
- */
-
-namespace spec;
+namespace spec\Acme;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
+
+/**
+* Write a method that takes in a string of lowercase letters (no
+* uppercase letters, no repeats). Consider the *substrings* of the
+* string: consecutive sequences of letters contained inside the string.
+* Find the longest such string of letters that is a palindrome.
+*
+* Note that the entire string may itself be a palindrome.
+*/
 
 class PalindromeSpec extends ObjectBehavior
 {

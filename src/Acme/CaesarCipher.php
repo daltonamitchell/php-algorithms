@@ -1,5 +1,7 @@
 <?php
 
+namespace Acme;
+
 /**
  * Write a method that takes in an integer `offset` and a string.
  * Produce a new string, where each letter is shifted by `offset`. You

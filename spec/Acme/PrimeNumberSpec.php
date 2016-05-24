@@ -1,21 +1,21 @@
 <?php
 
-/**
- * Is Prime?
- *
- * Write a method that takes in an integer (greater than one) and
- * returns true if it is prime; otherwise return false.
- *
- * nth Prime
- *
- * Write a method that returns the `n`th prime number. Recall that only
- * numbers greater than 1 can be prime.
- */
-
-namespace spec;
+namespace spec\Acme;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
+
+/**
+* Is Prime?
+*
+* Write a method that takes in an integer (greater than one) and
+* returns true if it is prime; otherwise return false.
+*
+* nth Prime
+*
+* Write a method that returns the `n`th prime number. Recall that only
+* numbers greater than 1 can be prime.
+*/
 
 class PrimeNumberSpec extends ObjectBehavior
 {

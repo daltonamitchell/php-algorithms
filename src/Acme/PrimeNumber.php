@@ -1,5 +1,7 @@
 <?php
 
+namespace Acme;
+
 /**
  * Is Prime?
  *

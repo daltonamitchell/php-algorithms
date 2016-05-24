@@ -1,5 +1,7 @@
 <?php
 
+namespace Acme;
+
 /**
  * Write a method that takes in a string. Return the longest word in
  * the string.

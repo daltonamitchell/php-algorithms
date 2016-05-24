@@ -14,13 +14,17 @@
 
 class PrimeNumber
 {
-    public function is_prime($number)
+    public function isPrime($number)
     {
         // 1 is not prime
-        if ($number === 1) return false;
+        if ($number === 1) {
+            return false;
+        }
 
         // 2 & 3 are
-        if ($number <= 3) return true;
+        if ($number <= 3) {
+            return true;
+        }
 
         $i = 2;
         while ($i <= sqrt($number)) {
@@ -30,21 +34,25 @@ class PrimeNumber
                 continue;
             }
 
-            if ($number % $i === 0) return false;
+            if ($number % $i === 0) {
+                return false;
+            }
             $i++;
         }
 
         return true;
     }
 
-    public function nth_prime($nth)
+    public function nthPrime($nth)
     {
         $i = 1;
         $found = 0;
 
         while ($found < $nth) {
             $i++;
-            if ($this->is_prime($i)) $found++;
+            if ($this->isPrime($i)) {
+                $found++;
+            }
         }
 
         return $i;

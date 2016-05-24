@@ -13,13 +13,9 @@ gulp.task('sniff', function () {
         .pipe(phpcs.reporter('log'));
 });
 
-gulp.task('beautify', shell.task(['bin/phpcbf --standard=PSR2 --ignore=vendor/ src/']));
+gulp.task('beautify', shell.task(['bin/phpcbf --standard=PSR2 --ignore=vendor/,spec/ src/']));
 
 gulp.task('phplint', function() {
   gulp.src('src/**/*.php')
       .pipe(phplint());
-});
-
-gulp.task('lint', ['phplint', 'sniff'], function() {
-  console.log('Linting complete!');
 });

@@ -27,15 +27,19 @@ class CaesarCipher
     {
         $letters = str_split($string);
 
-        $letters = array_map(function($letter) use ($offset) {
+        $letters = array_map(function ($letter) use ($offset) {
             $ascii = ord($letter);
 
             // Ignore non-letters
-            if ($ascii < ord("a") || $ascii > ord("z")) return chr($ascii);
+            if ($ascii < ord("a") || $ascii > ord("z")) {
+                return chr($ascii);
+            }
 
             $ascii += $offset;
 
-            if ($ascii > ord("z")) $ascii -= 26;
+            if ($ascii > ord("z")) {
+                $ascii -= 26;
+            }
 
             return chr($ascii);
         }, $letters);

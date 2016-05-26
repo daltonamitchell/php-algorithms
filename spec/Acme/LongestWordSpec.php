@@ -27,7 +27,7 @@ class LongestWordSpec extends ObjectBehavior
         $this->longest("is the loneliest number")->shouldReturn("loneliest");
     }
 
-    function it_handles_excludes_punctuation()
+    function it_handles_punctuation()
     {
         $this->longest("Hi there, how are you?")->shouldReturn("there");
     }

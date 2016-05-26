@@ -31,7 +31,7 @@ class Palindrome
         $search_length = strlen($string) - 2;
         while ($search_length > 0) {
             $i = 0;
-            while (($i + $search_length) < strlen($string)) {
+            while (($i + $search_length) <= strlen($string)) {
                 $sub = substr($string, $i, $search_length);
                 if ($this->isPalindrome($sub)) {
                     return $sub;

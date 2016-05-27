@@ -17,6 +17,14 @@ Follow these steps to get started:
 5. Once you understand whats going on, remove the solution code and try to get it working again on your own.
 6. Go forth and conquer!
 
+## Other Languages
+
+I've written these in a few different languages to fully understand how to different languages handle logic problems. Check out the others!
+
+* [JavaScript](https://github.com/daltonamitchell/js-algorithms/)
+* Ruby (Coming soon)
+* Python (Coming soon)
+
 ## Purpose
 
 Being a self-taught developer, I built these problems for myself to learn and practice. I've posted them so others can benefit from the same practice. Also, if I've gotten anything wrong, I'm sure someone will let me know and then I'll get to learn again!

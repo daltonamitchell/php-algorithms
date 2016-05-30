@@ -22,8 +22,8 @@ Follow these steps to get started:
 I've written these in a few different languages to fully understand how to different languages handle logic problems. Check out the others!
 
 * [JavaScript](https://github.com/daltonamitchell/js-algorithms/)
-* Ruby (Coming soon)
-* Python (Coming soon)
+* [Ruby](https://github.com/daltonamitchell/ruby-algorithms/)
+* [Python](https://github.com/daltonamitchell/python-algorithms/)
 
 ## Purpose
 

@@ -28,7 +28,7 @@ class Palindrome
             return $string;
         }
 
-        $search_length = strlen($string) - 2;
+        $search_length = strlen($string) - 1;
         while ($search_length > 0) {
             $i = 0;
             while (($i + $search_length) <= strlen($string)) {

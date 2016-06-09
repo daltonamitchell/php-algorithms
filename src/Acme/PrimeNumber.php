@@ -28,18 +28,16 @@ class PrimeNumber
             return true;
         }
 
-        $i = 2;
+        $i = 1;
         while ($i <= sqrt($number)) {
-            // We can skip even nums after 2
-            if (($i > 2) && ($i % 2 == 0)) {
-                $i++;
+            $i++;
+            if ($this->evenAboveTwo($i)) {
                 continue;
             }
 
             if ($number % $i === 0) {
                 return false;
             }
-            $i++;
         }
 
         return true;
@@ -52,11 +50,20 @@ class PrimeNumber
 
         while ($found < $nth) {
             $i++;
+            if ($this->evenAboveTwo($i)) {
+                continue;
+            }
+
             if ($this->isPrime($i)) {
                 $found++;
             }
         }
 
         return $i;
+    }
+
+    private function evenAboveTwo($num)
+    {
+        return ($num > 2) && !boolval($num & 1);
     }
 }

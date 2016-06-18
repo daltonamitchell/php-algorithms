@@ -2,12 +2,17 @@
     "name": "daltonamitchell/php-algorithms",
     "require-dev": {
         "phpspec/phpspec": "~2.0",
+        "phpunit/phpunit": "5.4.*",
         "squizlabs/php_codesniffer": "^2.6"
     },
     "config": {
         "bin-dir": "bin"
     },
-    "autoload": {"psr-0": {"": "src"}},
+    "autoload": {
+      "psr-4": {
+        "Algorithms\\": "src"
+        }
+      },
     "authors": [
         {
             "name": "Dalton A. Mitchell",
